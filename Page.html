@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <style>
+      .input {
+        display: block;
+        margin-bottom: 20px;
+        padding: 7px;
+        border-radius: 15px;
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
+      }
+      #submit_data {
+        display: inline;
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        border-width: 1px;
+        width: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Display Text Input Fields</h1>
+    <hr />
+    <br />
+
+    <div>
+      <input
+        type="text"
+        placeholder="enter full name"
+        class="input"
+        id="full_name_input"
+      />
+      <input type="text" placeholder="gender" class="input" id="gender_input" />
+      <input
+        type="number"
+        placeholder="salary"
+        class="input"
+        id="salary_input"
+      />
+      <input type="text" placeholder="city" class="input" id="city_input" />
+      <button id="submit_data">click me to create table</button>
+    </div>
+
+    <hr />
+    <br />
+    <script src="script.js"></script>
+  </body>
+</html>
